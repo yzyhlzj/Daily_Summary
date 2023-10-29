@@ -2,9 +2,21 @@
 
 # git学习
 
+## 概念理解
+
 从一个初学者的角度，我认为git有三个需要稍微需要理解的概念
 
-四个区域和三种状态：
+首先，理解下 Git 工作区、暂存区和版本库概念：
+
+- **工作区：**就是你在电脑里能看到的目录。
+- **暂存区：**英文叫 stage 或 index。一般存放在 **.git** 目录下的 index 文件（.git/index）中，所以我们把暂存区有时也叫作索引（index）。
+- **版本库：**工作区有一个隐藏目录 **.git**，这个不算工作区，而是 Git 的版本库。
+
+下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
+
+![image-20231029222634656](C:\Users\DELL\Desktop\learn-git\Daily_Summary\git学习.assets\image-20231029222634656.png)
+
+
 
 ## 一、初始化
 
@@ -74,6 +86,47 @@ git branch命令可以查看所有本地分支，当前分支前面会有一个*
 
 ```
 git branch
+```
+
+创建分支
+
+```
+git branch (branchname)
+```
+
+切换分支
+
+```
+git checkout (branchname)
+git switch (branchname) 推荐
+```
+
+
+
+## 六、远程仓库
+
+### 添加远程库
+
+要添加一个新的远程仓库，可以指定一个简单的名字，以便将来引用,命令格式如下：
+
+```
+git remote add [shortname] [url]
+```
+
+这里的shortname如果使用origin，那么使用git push时就会默认推送到这个仓库下
+
+### 向远程仓库推送
+
+```
+git push [alias] [branch]
+```
+
+## 删除远程仓库
+
+删除远程仓库你可以使用命令：
+
+```
+git remote rm [别名]
 ```
 
 ## 总结
