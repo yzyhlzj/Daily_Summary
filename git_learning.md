@@ -12,9 +12,9 @@
 - **暂存区：**英文叫 stage 或 index。一般存放在 **.git** 目录下的 index 文件（.git/index）中，所以我们把暂存区有时也叫作索引（index）。
 - **版本库：**工作区有一个隐藏目录 **.git**，这个不算工作区，而是 Git 的版本库。
 
-下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
+然后，就是分支的概念
 
-![image-20231029222634656](C:\Users\DELL\Desktop\learn-git\Daily_Summary\git学习.assets\image-20231029222634656.png)
+最后，是远程仓库的概念
 
 
 
