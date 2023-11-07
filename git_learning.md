@@ -122,7 +122,7 @@ git switch (branchname) 推荐
 
 要添加一个新的远程仓库，可以指定一个简单的名字，以便将来引用,命令格式如下：
 
-```
+```git
 git remote add [shortname] [url]
 ```
 
