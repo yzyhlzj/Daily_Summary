@@ -1,0 +1,13 @@
+# 忽略 .txt 文件
+*.txt
+
+# 忽略 build 文件夹
+/build
+
+# 忽略以 tmp 开头的文件夹
+tmp*/
+
+# 忽略 .log 和 .bak 后缀的文件
+*.{log,bak}
+
+.iml
