@@ -134,7 +134,13 @@ git remote add [shortname] [url]
 git push [alias] [branch]
 ```
 
-## 删除远程仓库
+### 拉取远程仓库
+
+```
+git pull [alias] [branch]
+```
+
+### 删除远程仓库
 
 删除远程仓库你可以使用命令：
 
